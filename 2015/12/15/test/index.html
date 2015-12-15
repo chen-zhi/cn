@@ -54,7 +54,7 @@
 <meta name="description" content="爱橙的描述">
 <meta property="og:type" content="article">
 <meta property="og:title" content="test">
-<meta property="og:url" content="http://yoursite.com/2015/12/15/test/index.html">
+<meta property="og:url" content="http://orangeprogramming/cn/2015/12/15/test/index.html">
 <meta property="og:site_name" content="爱橙">
 <meta property="og:description" content="爱橙的描述">
 <meta property="og:updated_time" content="2015-12-15T02:19:17.000Z">
@@ -232,11 +232,11 @@
           
             
               <span class="post-comments-count">
-              &nbsp; | &nbsp;
-              <a href="/2015/12/15/test/#comments" itemprop="discussionUrl">
-                <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2015/12/15/test/" itemprop="commentsCount"></span>
-              </a>
-            </span>
+                &nbsp; | &nbsp;
+                <a href="/2015/12/15/test/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/15/test/" itemprop="commentsCount"></span>
+                </a>
+              </span>
             
           
 
@@ -297,8 +297,8 @@
         
   <div class="comments" id="comments">
     
-      <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <div class="ds-thread" data-thread-key="2015/12/15/test/"
+           data-title="test" data-url="http://orangeprogramming/cn/2015/12/15/test/">
       </div>
     
   </div>
@@ -442,32 +442,28 @@
 
   
     
+
+  
     
-
   
 
-    <script type="text/javascript">
-      var disqus_shortname = 'orangeprogramming';
-      var disqus_identifier = '2015/12/15/test/';
-      var disqus_title = 'test';
-      var disqus_url = 'http://yoursite.com/2015/12/15/test/';
-
-      function run_disqus_script(disqus_script){
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      }
-
-      run_disqus_script('count.js');
-      
-        run_disqus_script('embed.js');
-      
-    </script>
-  
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"orangeprogramming"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+    
+     
 
 
+    
   
 
   
