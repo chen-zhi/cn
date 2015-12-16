@@ -63,9 +63,9 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个�
 Jekyll 究竟是什么？下文摘取自官网介绍
 
 Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过一个转换器（如 Markdown">
-<meta property="og:image" content="https://github.com/chen-zhi/markdown-photos/blob/master/host-jekyll-blog-github.jpg?raw=true">
-<meta property="og:image" content="https://github.com/chen-zhi/markdown-photos/blob/master/Snip20151209_3.png?raw=true">
-<meta property="og:updated_time" content="2015-12-15T04:57:41.000Z">
+<meta property="og:image" content="https://github.com/chen-zhi/markdown-photos/blob/master/december%202015/Jekyll/host-jekyll-blog-github.jpg?raw=true">
+<meta property="og:image" content="https://github.com/chen-zhi/markdown-photos/blob/master/december%202015/Jekyll/CNAME.png?raw=true">
+<meta property="og:updated_time" content="2015-12-16T07:04:58.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何用Jekyll在GitHub搭建免费的，无限流量的博客">
 <meta name="twitter:description" content="背景作为一个在芬兰学校计算机的学生，出于对Linus的崇拜，我决定学习Git并写独立博客。独立博客可用Jekyll, Octopress, hexo, pelican 等搭建，此文讲述Jekyll在Mac下的使用。
@@ -284,13 +284,12 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个�
       
 
       
-        <span itemprop="articleBody"><p><img src="https://github.com/chen-zhi/markdown-photos/blob/master/host-jekyll-blog-github.jpg?raw=true" alt="image"></p>
+        <span itemprop="articleBody"><p><img src="https://github.com/chen-zhi/markdown-photos/blob/master/december%202015/Jekyll/host-jekyll-blog-github.jpg?raw=true" alt="image"></p>
 <h2 id="u80CC_u666F"><a href="#u80CC_u666F" class="headerlink" title="背景"></a>背景</h2><p>作为一个在芬兰学校计算机的学生，出于对Linus的崇拜，我决定学习Git并写独立博客。独立博客可用Jekyll, Octopress, hexo, pelican 等搭建，此文讲述Jekyll在Mac下的使用。</p>
 <h2 id="Jekyll__u7A76_u7ADF_u662F_u4EC0_u4E48_uFF1F"><a href="#Jekyll__u7A76_u7ADF_u662F_u4EC0_u4E48_uFF1F" class="headerlink" title="Jekyll 究竟是什么？"></a>Jekyll 究竟是什么？</h2><p>下文摘取自官网介绍</p>
 <blockquote>
 <p>Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过一个转换器（如 Markdown）和我们的 Liquid 渲染器转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。</p>
 </blockquote>
-<a id="more"></a>
 <h2 id="u672C_u6559_u7A0B_u9002_u7528_u4EBA_u7FA4"><a href="#u672C_u6559_u7A0B_u9002_u7528_u4EBA_u7FA4" class="headerlink" title="本教程适用人群"></a>本教程适用人群</h2><ul>
 <li>Mac拥有者</li>
 <li>了解基本建站知识</li>
@@ -307,7 +306,7 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个�
 <p>登陆GitHub,新建一个repository。命名为username.github.io［请把username改成自己的用户名］</p>
 <h3 id="Step_2_3A__u57DF_u540D_u8D2D_u4E70_uFF0C_u7ED1_u5B9A_u81EA_u5B9A_u4E49_u57DF_u540D"><a href="#Step_2_3A__u57DF_u540D_u8D2D_u4E70_uFF0C_u7ED1_u5B9A_u81EA_u5B9A_u4E49_u57DF_u540D" class="headerlink" title="Step 2: 域名购买，绑定自定义域名"></a>Step 2: 域名购买，绑定自定义域名</h3><ol>
 <li>域名购买,推荐Godadday -&gt; 网址<a href="https://www.godaddy.com/" target="_blank" rel="external">https://www.godaddy.com/</a></li>
-<li>购买域名完毕后返回刚刚新建的username.github.io界面。选择New file, 命名为CNAME（没有后缀名）, 在空白处输入自己的刚刚买好的域名。如下图所示。<br><img src="https://github.com/chen-zhi/markdown-photos/blob/master/Snip20151209_3.png?raw=true" alt=""></li>
+<li>购买域名完毕后返回刚刚新建的username.github.io界面。选择New file, 命名为CNAME（没有后缀名）, 在空白处输入自己的刚刚买好的域名。如下图所示。<br><img src="https://github.com/chen-zhi/markdown-photos/blob/master/december%202015/Jekyll/CNAME.png?raw=true" alt=""></li>
 <li>返回Godaddy -&gt; 在My Domian的设置里找到Manage DNS -&gt; 删除DNS ZONE FILE里所有的配置。</li>
 <li>增加一条A记录(“host” = @ 和 “Points to” = 192.30.252.153)</li>
 <li>增加一条CNAME记录（”host” = www 和”Points to” = username.github.io）</li>
@@ -336,7 +335,7 @@ Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个�
 <li>Cellier: <a href="http://www.cellier.me/2015/01/04/jekyll%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_blank" rel="external">每个人都应该有一个Jekyll博客</a></li>
 <li><a href="http://www.pchou.info/web-build/2013/01/03/build-github-blog-page-01.html" target="_blank" rel="external">一步步在GitHub上创建博客主页</a></li>
 </ul>
-<h1 id="u7248_u6743_u58F0_u660E"><a href="#u7248_u6743_u58F0_u660E" class="headerlink" title="版权声明"></a>版权声明</h1><p><strong>本文由博主原创。如果觉得我的文章有趣或者帮助到了你，请留言鼓励或分享给你的朋友！转载或借鉴请给出链接，为小站增加点人气！</strong></p>
+<h1 id="u7248_u6743_u58F0_u660E"><a href="#u7248_u6743_u58F0_u660E" class="headerlink" title="版权声明"></a>版权声明</h1><p><strong>本文由博主原创。如果觉得我的教程帮助到了你，请留言鼓励或分享给你的朋友！转载或借鉴请给出链接，为小站增加点人气！</strong></p>
 </span>
       
     </div>
